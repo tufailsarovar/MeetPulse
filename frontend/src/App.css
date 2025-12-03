@@ -1,0 +1,126 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("../public/wallpaper1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.authen{
+  text-align: center;
+}
+.landingPageContainer nav {
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.meetpulse-text {
+  background: linear-gradient(90deg, #ff007f, #b624ff, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  cursor: pointer;
+}
+.admin{
+  background: linear-gradient(90deg, #ff007f, #b624ff, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.meetpulse-text:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+.meetpulse-text:active {
+  transform: scale(0.95);
+}
+
+
+.landingPageContainer nav .navlist {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+  font-size: 23px;
+
+}
+
+
+.landingMainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  height: 80vh;
+  align-items: center;
+}
+
+.landingMainContainer>div:nth-child(1) {
+  font-size: 2.2rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] {
+  background: #D97500;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.landingMainContainer>div:nth-child(2) img {
+  height: 70vh;
+  width: auto;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  text-align: center;
+  background-color: #a5c6e9;
+
+}
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+.history{
+  background-color: #a5c6e9;
+}
